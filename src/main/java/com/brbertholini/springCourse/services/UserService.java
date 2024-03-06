@@ -31,11 +31,12 @@ public class UserService {
     }
 
     public void delete(Long id) {
-        repository.deleteById(id);
         try {
-            repository.deleteById(id);
-        } catch (EmptyResultDataAccessException e) {
-            throw new ResourceNotFoundException(id);
+            if (repository.existsById(id)) {
+                repository.deleteById(id);
+            } else {
+                throw new ResourceNotFoundException(id);
+            }
         } catch (DataIntegrityViolationException e) {
             throw new DatabaseException(e.getMessage());
         }
