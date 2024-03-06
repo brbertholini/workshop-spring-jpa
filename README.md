@@ -8,6 +8,7 @@ Consiste na implementação do modelo de domínio do projeto, com estruturação
 Criação de um CRUD para o cadastro completo de uma entidade (Create, Retrieve, Update, Delete) e tratamento de exceções.
 
 ## Modelo conceitual
+![Modelo conceitual](https://github.com/brbertholini/workshop-spring-jpa/issues/1#issue-2172466559)
 
 ## Tecnologias utilizadas
 - ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
