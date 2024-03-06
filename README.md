@@ -15,9 +15,7 @@ Criação de um CRUD para o cadastro completo de uma entidade (Create, Retrieve,
 - ![Spring Boot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 - ![JPA / Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
 
-# Como executar o projeto
-
-## Back end
+## Como executar o projeto
 
 ```bash
 # clonar repositório
@@ -30,9 +28,9 @@ cd workshop-spring-jpa
 ./mvnw spring-boot:run
 ```
 
-# Autor
+## Autor
 
-Bruno Bertholini  |  
-<a href="https://www.linkedin.com/in/bruno-bertholini/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+Bruno Bertholini | <a href="https://www.linkedin.com/in/bruno-bertholini/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:brbertholini@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
 
